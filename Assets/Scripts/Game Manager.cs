@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour
         {
             currentSettings = new DifficultySettings(5,5,7);
         }
-        
     }
 
     private void GameOver() => isGameOver = true;
